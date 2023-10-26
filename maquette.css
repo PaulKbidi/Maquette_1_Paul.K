@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d1d1d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.entete {
+    display: flex;
+    position: sticky;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-title a {
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav-button a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+.content {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.big-title {
+    display: flex;
+    margin-left: 2rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.big-title h1 {
+    color: white;
+    font-size: 10vh;
+}
+
+.big-title h2 {
+    color: #474dff;
+    font-size: 3.4vh;
+}
+
+.big-title p {
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.img img {
+    width: 80vh;
+    transition: transform .5s ease;
+}
+
+.img:hover img {
+    transform: scale(1.1);
+}
+
+footer{
+    display: flex;
+    background-color: #0d0d0d;
+    margin: 1rem;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.techno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vh;
+}
+
+.techno h1 {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.techno a {
+    text-decoration: none;
+    text-align: center;
+    font-size: small;
+    color: white;
+    margin: 0.5rem 0.5rem 0rem 0rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: #474dff;
+    width: 9rem;
+    font-weight: 600;
+}
+
+.techno a:hover {
+    animation: hover 0.8s forwards;
+}
+
+@keyframes hover {
+    to{
+        color: #474dff;
+        background-color: white;
+    }
+}
+
+.investors {
+    display: flex;
+    width: 65%;
+    margin: 2vh;
+    flex-direction: column;
+}
+
+.investors h1 {
+    color: white;
+    font-size: 1rem;
+}
+
+.invet-img {
+    display: flex;
+    margin-left: 8rem;
+    margin-top: 3rem;
+    justify-content: space-around;
+}
+
+.invest1 img {
+    width: 10vh;
+    transition: transform .5s ease;
+}
+
+.invest1:hover img {
+    transform: scale(1.5);
+}
+
+.invest2 img {
+    width: 20vh;
+    transition: transform .5s ease;
+}
+
+.invest2:hover img {
+    transform: scale(1.5);
+}
+
+.invest3 img {
+    width: 15vh;
+    transition: transform .5s ease;
+}
+
+.invest3:hover img {
+    transform: scale(1.5);
+}
